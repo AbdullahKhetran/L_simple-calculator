@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <form>
+        <input type="radio" id="btn_a" name="task" value="Addition">
+        <label for="btn_a">Addition</label>
+
+        <input type="radio" id="btn_s" name="task" value="Subtraction">
+        <label for="btn_b">Subtraction</label>
+
+        <input type="radio" id="btn_m" name="task" value="Multiplication">
+        <label for="btn_c">Multiplication</label>
+
+        <input type="radio" id="btn_d" name="task" value="Divison">
+        <label for="btn_d">Divison</label>
+        <br>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <br>
+        <input type="reset" id="resetBtn">
+    </form>
+    <input type="submit" value="Calculate" id="calcBtn">
+    <p>Answer: <span id="answer"></span></p>
+</body>
+
+</html>
